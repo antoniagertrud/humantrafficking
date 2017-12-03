@@ -1,0 +1,111 @@
+h1 {
+  color: #2c3e50;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 250%;
+}
+
+.h1 {
+  color: #2c3e50;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 250%;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #c0392b
+    
+  
+}
+
+body {
+  background-color: #ecf0f1;
+  margin: auto;
+  background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+.page {
+  margin-left:3%
+}
+
+.p {
+  width: 72%;
+  font-family: 'Ubuntu', sans-serif;
+  text-indent: 50px;
+  line-height: 1.6;
+}
+
+.pp {
+  width: 97%;
+  font-family: 'Ubuntu', sans-serif;
+  text-indent: 50px;
+  line-height: 1.6;
+}
+
+.info {
+  margin-right: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#p1 {
+  font-size: 150%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #95a5a6;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+li { 
+  float:left;
+}
+
+.li-1 {
+  float:left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+}
+
+li a:hover {
+    background-color: #34495e;
+}
+
+.active {
+    background-color: #7f8c8d;
+}
+
+#areaimg {
+    height: auto; 
+    width: 97%;
+  margin-bottom: 15px;
+}
+
+#d {
+  position: relative;
+}
+
+.nimg {
+  width:10%;
+  height:auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 3px;
+}

@@ -1,0 +1,70 @@
+h1 {
+  color: #2c3e50;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 250%;
+}
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #c0392b
+  
+}
+
+body {
+  background-color: #ecf0f1;
+   margin: auto
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+}
+.info {
+  margin-right: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    background-color: #95a5a6;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.link li a { 
+  float:left;
+}
+
+.link li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+}
+
+.link li a:hover {
+    background-color: #34495e;
+}
+.content {
+  margin-left: 3%;
+  margin-top: 55px;
+}
+
+.active {
+    background-color: #7f8c8d;
+}
+
+span.img
+{ 
+    height: 50px; 
+    width: 45px; 
+    content: url("https://cdn.glitch.com/fd8d8299-eb32-4acc-9345-417ede442d84%2Finvisible-logo1.jpg?1510514534231");
+    display: inline-block;
+    vertical-align: middle;
+}
